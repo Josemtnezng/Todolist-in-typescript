@@ -1,9 +1,10 @@
 const TodoForm = () => {
 return (
-    <form className="flex mb-4">
+    <form className="flex mb-6 space-x-2 rounded-xl overflow-hidden shadow-lg shadow-gray-700/30"> 
         <input type = "text" placeholder="¿Qué necesitas hacer?"
-        className="flex-grow p-2 rounded-l-md bg-gray-800 border border-gray-700 focus:outline-none focus:ring-2 focus:ring-blue-500"/> 
-        <button type ="submit" className="bg-blue-600 hover:bg-blue-700 p-2 rounded-r-md font-bold">
+        className="flex-grow p-3 text-gray-200 bg-gray-700 placeholder-gray-400 focus:outline-none focus:ring-4 focus:ring-cyan-500/50 focus:bg-gray-600 transition duration-300 border-none"/> 
+        <button type ="submit"
+        className="bg-cyan-600 hover:bg-cyan-500 p-3 font-bold text-gray-900 hover:shadow-lg hover:shadow-cyan-500/50 transition duration-300 whitespace-nowrap">
             Añadir
         </button>
     </form>
